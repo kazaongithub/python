@@ -1,0 +1,17 @@
+Iterators
+----------
+
+Iterator is an object which allows a programmer to traverse all the elements of a collection,
+regardless of its specific implementation.
+
+In Python, an iterator is an object which implements the iterator protocol.
+
+Iterators have several advantages:
+- Cleaner code
+- Iterators can work with infinite sequences
+- Iterators save resources
+
+
+Resources:
+----------
+http://zetcode.com/lang/python/itergener/
