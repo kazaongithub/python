@@ -1,0 +1,21 @@
+str() vs repr()
+---------------
+
+str() and repr() both are used to get a string representation of object.
+
+str() is used for creating output for end user.
+
+repr() is mainly used for debugging and development.
+repr() goal is to be unambiguous and str's is to be readable.
+
+repr() compute the "official" string representation of an object
+    a representation that is useful for printing the object.
+
+The print statement and str() built-in functions uses __str__ to display
+the string representation of the object.
+
+repr() built-in function uses __repr__ to display the object.
+
+Resources:
+----------
+https://www.geeksforgeeks.org/str-vs-repr-in-python/
